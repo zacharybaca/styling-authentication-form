@@ -5,15 +5,38 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 30%;
-        height: 40vh;
+        padding-left: 1%;
+        padding-right: 8%;
+        height: 26vh;
+        font-weight: bold;
         background-color: white;
         border: 2px solid black;
     }
     
     .container h2 {
-        margin-right: 23%;
+        padding-right: 72%;
     }
+
+    .form-group input {
+        width: 170%;
+    }
+
+   
+
+    form button {
+        width: 172%;
+        color: white;
+        height: 2.5vh;
+        background-color: blue;
+    }
+
+   form input {
+    padding-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+   }
+
+   
 
     body {
         display: flex;
