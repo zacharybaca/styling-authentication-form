@@ -1,5 +1,18 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    width: 30%;
+    height: 40vh;
+    background-color: white;
+    border: 2px solid black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #faead7;
 }
