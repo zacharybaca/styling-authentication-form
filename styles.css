@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jersey+25+Charted&display=swap');
+
 
 @media screen and (min-width: 1920px) {
     .container {
@@ -8,9 +10,12 @@
         padding-left: 1%;
         padding-right: 8%;
         height: 26vh;
+        font-family: "Briem Hand", cursive;
         font-weight: bold;
         background-color: white;
         border: 2px solid black;
+        border-radius: 5px;
+        box-shadow: 15px 10px 8px 5px #888888;
     }
     
     .container h2 {
@@ -18,16 +23,22 @@
     }
 
     .form-group input {
-        width: 170%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 105%;
     }
-
-   
 
     form button {
         width: 172%;
         color: white;
-        height: 2.5vh;
+        padding: 5%;
         background-color: blue;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+        cursor: pointer;
     }
 
    form input {
@@ -35,8 +46,6 @@
     margin-top: 5%;
     margin-bottom: 7%;
    }
-
-   
 
     body {
         display: flex;
