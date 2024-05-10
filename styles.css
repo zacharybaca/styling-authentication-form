@@ -1,61 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jersey+25+Charted&display=swap');
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 16%;
+    min-height: 45vh;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-family: "Briem Hand", cursive;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 15px 10px 8px 5px #888888;
+}
 
-@media screen and (min-width: 1920px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 1%;
-        padding-right: 8%;
-        height: 26vh;
-        font-family: "Briem Hand", cursive;
-        font-weight: bold;
-        background-color: white;
-        border: 2px solid black;
-        border-radius: 5px;
-        box-shadow: 15px 10px 8px 5px #888888;
-    }
+
+
+.form-group input {
+    width: 100%;
     
-    .container h2 {
-        padding-right: 72%;
-    }
+}
 
-    .form-group input {
-        padding-top: 5%;
-        padding-bottom: 5%;
-        padding-right: 105%;
-    }
+form button {
+    width: 100%;
+    color: white;
+    padding: 5%;
+    background-color: blue;
+    border-radius: 5px;
+}
 
-    form button {
-        width: 172%;
-        color: white;
-        padding: 5%;
-        background-color: blue;
-        border-radius: 5px;
-    }
+button:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    cursor: pointer;
+}
 
-    button:hover {
-        box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-        cursor: pointer;
-    }
+form input {
+padding-top: 10%;
+margin-top: 5%;
+margin-bottom: 7%;
+}
 
-   form input {
-    padding-top: 10%;
-    margin-top: 5%;
-    margin-bottom: 7%;
-   }
+input:focus {
+box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.3);
+}
 
-   input:focus {
-    box-shadow: 5px 5px 8px 0px rgba(0,0,0,0.3);
-   }
-
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #faead7;
-    }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #faead7;
 }
