@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 16%;
-    min-height: 45vh;
+    min-height: 32vh;
     padding-right: 1%;
     padding-left: 1%;
     font-family: "Briem Hand", cursive;
@@ -37,7 +37,8 @@ button:hover {
 }
 
 form input {
-padding-top: 10%;
+padding-top: 3%;
+padding-bottom: 2%;
 margin-top: 5%;
 margin-bottom: 7%;
 }
